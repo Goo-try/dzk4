@@ -64,11 +64,11 @@ fun removeBook(books: MutableList<Book>, bookTitle: String) {
 fun main() {
     val books = mutableListOf<Book>()
 
-    addBook(books, "Мастер и Маргарита", "Булгаков", 4.9)
-    addBook(books, "Преступление и наказание", "Достоевский", 4.7)
-    addBook(books, "Евгений Онегин", "Пушкин", 4.8)
-    addBook(books, "Мёртвые души", "Гоголь", 4.5)
-    addBook(books, "Война и мир", "Толстой", 4.6)
+    addBook(books, "Мастер и Маргарита", "Булгаков Михаил Афанасьевич", 4.9)
+    addBook(books, "Преступление и наказание", "Достоевский Фёдор Михайлович", 4.7)
+    addBook(books, "Евгений Онегин", "Пушкин Александр Сергеевич", 4.8)
+    addBook(books, "Мёртвые души", "Гоголь Николай Васильевич", 4.5)
+    addBook(books, "Война и мир", "Толстой Лев Николаевич", 4.6)
 
     printCatalog(books)
     printAverageRating(books)
